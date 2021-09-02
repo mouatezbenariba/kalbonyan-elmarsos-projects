@@ -5,13 +5,13 @@ This repository contains all the exercices, assignments and projects done within
 ## 📑 Table of Contents
 
 - [What is "Kalbonyan-ElMarsos" ?](#-what-is-Kalbonyan-ElMarsos-)
-- [Courses](#-courses)
+- [Courses](#-Curricula)
 
 ### 🤔 What is "Kalbonyan-ElMarsos" ?
 
 </span><a href="https://www.linkedin.com/company/%D9%83%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B1%D8%B5%D9%88%D8%B5/"><b>Kalbonyan-ElMarsos (كالبنيان المرصوص)</b></a> is a non-profit organization that aims to help those who want to learn programming by organizing competitions with professional curricula and valuable prizes.
 
-### 📚 Courses
+### 📚 Curricula
 #### I. [Programming Foundations]
 - [Programming Foundations: Fundamentals](https://www.linkedin.com/learning/programming-foundations-fundamentals-3)
 - [Programming Foundations: Beyond the Fundamentals](https://www.linkedin.com/learning/programming-foundations-beyond-the-fundamentals)
