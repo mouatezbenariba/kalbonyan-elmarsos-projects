@@ -5,7 +5,7 @@ This repository contains all the exercices, assignments and projects done within
 ## 📑 Table of Contents
 
 - [What is "Kalbonyan-ElMarsos" ?](#-what-is-Kalbonyan-ElMarsos-)
-- [Courses](#-Curricula)
+- [Curricula](#-curricula)
 
 ### 🤔 What is "Kalbonyan-ElMarsos" ?
 
