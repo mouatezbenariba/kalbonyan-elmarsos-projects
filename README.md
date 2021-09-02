@@ -3,7 +3,7 @@ This repository contains all the exercices, assignments and projects done within
 
 ## Table of Contents
 
-- [Certifications](#certifications)
+- [What is "Kalbonyan-ElMarsos" ?](#certifications)
 - [The Learning Platform](#the-learning-platform)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Reporting Security Issues and Responsible Disclosure](#reporting-security-issues-and-responsible-disclosure)
@@ -11,7 +11,7 @@ This repository contains all the exercices, assignments and projects done within
 - [Platform, Build and Deployment Status](#platform-build-and-deployment-status)
 - [License](#license)
 
-### Certifications
+### What is "Kalbonyan-ElMarsos" ?
 
 freeCodeCamp.org offers several free developer certifications. Each of these certifications involves building 5 required web app projects, along with hundreds of optional coding challenges to help you prepare for those projects. We estimate that each certification will take a beginner programmer around 300 hours to earn.
 
