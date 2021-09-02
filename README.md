@@ -3,7 +3,7 @@ This repository contains all the exercices, assignments and projects done within
 
 ## Table of Contents
 
-- [What is "Kalbonyan-ElMarsos" ?](#what-is-Kalbonyan-ElMarsos-?)
+- [What is "Kalbonyan-ElMarsos" ?](#what-is-Kalbonyan-ElMarsos-)
 - [The Learning Platform](#the-learning-platform)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
 - [Reporting Security Issues and Responsible Disclosure](#reporting-security-issues-and-responsible-disclosure)
