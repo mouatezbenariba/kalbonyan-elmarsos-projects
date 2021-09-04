@@ -13,8 +13,8 @@ result = 5 - 3
 
 print("Challenge complete!")
 
-# ----------------------------------------
-            # Output
+# ---------------  Output  -------------------------
+
 #Challenge 1:
 #This is going to be tricky ;)
 #2**3 = 8
