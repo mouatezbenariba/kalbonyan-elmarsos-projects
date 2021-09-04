@@ -1,3 +1,5 @@
+print("challenge 02:")
+
 # my favorite food
 fav_food = "chekhchoukha"
 
