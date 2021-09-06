@@ -49,3 +49,16 @@
 #### Why we use IDEs instead of simple text editors ?
 - You can write entire programs in simple text editors, but in practice few programmers do. They use enhanced text editors called integrated development environments, or IDEs.
 
+#### What is syntax highlighting ?
+- Syntax highlighting is a feature of text editors that are used for programming, scripting, or markup languages, such as HTML. The feature displays text, especially source code, in different colours and fonts according to the category of terms. (source : Wikipedia)
+
+#### What are statements ?
+- Statements are the individual actions that you want your program to take.
+
+#### What are operators ?
+- Operators are symbols that tell the computer to perform an action with some input.
+
+#### Syntax vs Runtime vs Semantic (Troublesshooting issues) ?
+- Syntax : Language rules broken.
+- Runtime : Unable to execute.
+- Semantic: Unexpected output.
