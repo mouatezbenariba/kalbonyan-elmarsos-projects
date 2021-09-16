@@ -59,6 +59,6 @@
 - Operators are symbols that tell the computer to perform an action with some input.
 
 #### Syntax vs Runtime vs Semantic (Troublesshooting issues) ?
-- Syntax : Language rules broken.
-- Runtime : Unable to execute.
-- Semantic: Unexpected output.
+- Syntax error: Language rules broken.
+- Runtime error: Unable to execute.
+- Semantic error: Unexpected output.
