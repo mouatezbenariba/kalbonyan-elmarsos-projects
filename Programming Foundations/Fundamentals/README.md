@@ -43,7 +43,7 @@
 - A bug is when something unexpected happens, whereas a crash is when your program stops early or freezes.
 
 #### Plain text vs Rich text
-- Diffrence between plain text and rich text: A plain text file is a document that contains no formatting, images, colors or other types of markup. It also includes single line breaks and spacing. A rich text file is the default format of popular word-processors like Microsoft Word, Apple Pages and Notes, a Google Doc, and even HTML emails (source : Internet).
+- Difference between plain text and rich text: A plain text file is a document that contains no formatting, images, colors or other types of markup. It also includes single line breaks and spacing. A rich text file is the default format of popular word-processors like Microsoft Word, Apple Pages and Notes, a Google Doc, and even HTML emails (source : Internet).
 
 ### 2. Programming Syntax
 #### Why we use IDEs instead of simple text editors ?
