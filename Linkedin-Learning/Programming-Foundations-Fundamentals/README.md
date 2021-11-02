@@ -1,11 +1,13 @@
 ## 💻 [Programming Foundations: Fundamentals](https://www.linkedin.com/learning/programming-foundations-fundamentals-3)
- - In this course we have covered the basics of computer programming.
+### Course details
+- Gain the core knowledge to begin programming in any language. In this course, instructor Annyce Davis uses Python to explore the core concepts and structure of programming languages and helps you grasp what’s going on under the hood. After going over basic statements and expressions in Python, Annyce explores strings, variables, and conditional code—which are common topics in all programming languages. She also shows how to work with different kinds of data and troubleshoot a variety of errors. Along the way, she compares how code is written in several different languages and provides guidance on the criteria to use when choosing a programming language. Upon wrapping up this course, you’ll have the knowledge you need to continue your coding journey in whichever language piques your interest.
 
 ## 📑 Table of Contents
 - [Learning objectives](#-learning-objectives)
 - [Skill covered](#-skill-covered)
 - [Contents of the course](#-contents-of-the-course)
 - [Course Notes](#-contents-of-the-course)
+- [Certification](#-certification)
 
 
 ## 📚 Learning objectives
@@ -44,7 +46,7 @@
 
 #### Plain text vs Rich text
 - Difference between plain text and rich text: A plain text file is a document that contains no formatting, images, colors or other types of markup. It also includes single line breaks and spacing. A rich text file is the default format of popular word-processors like Microsoft Word, Apple Pages and Notes, a Google Doc, and even HTML emails (source : Internet).
-
+---
 ### 2. Programming Syntax
 #### Why we use IDEs instead of simple text editors ?
 - You can write entire programs in simple text editors, but in practice few programmers do. They use enhanced text editors called integrated development environments, or IDEs.
@@ -62,3 +64,6 @@
 - Syntax error: Language rules broken.
 - Runtime error: Unable to execute.
 - Semantic error: Unexpected output.
+
+## 💻 Certification
+[Preview Certificate]()
