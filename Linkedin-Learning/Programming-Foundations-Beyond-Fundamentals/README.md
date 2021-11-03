@@ -97,8 +97,29 @@ Infinite loop: bug that can occur when the ending condition is omitted or specif
       - \w : indicates a word character like a letter. 
   - r'':  I start with the letter R. This indicates that the string that follows may include back slashes that the compiler should ignore (check exercise 04_03.py (r'\d{5}').   
   - /hello/ : you can indicate specific text you're looking for by enclosing it in slashes.
+ ---
  
- 
+### 5. Planning a Program
+#### A. Choosing a code style
+##### 🔴 what is a Style Guide?
+- Style Guides: Documentation on approaches to code.
+##### 🔴 Well known style guides
+- [For python developers, the most commonly used style guide is PEP8 (Python Enhancement Proposal 8).](https://www.python.org/dev/peps/pep-0008/)
+- [Google Python Style Guide.](https://google.github.io/styleguide/pyguide.html)
+- [Airbnb JavaScriot Style guide.](https://github.com/airbnb/javascript)
+<br>
+
+#### B. Writing Pseudocode
+When developers write code, it's common to start with a planning phase known as pseudocoding.
+##### 🟣 what is a pseudocode?
+- Pseudocode: writing a description of what you're trying to do using plain language.
+##### 🟣 what is the utility of pseudocoding?
+- Pseudocoding helps you create a basic outline for the program you’re creating. 
+- With pseudocode, you can begin to describe the structure of your program.
+- Pseudocoding helps you ensure that when you start coding you have a sense of where you're going and you have the main factors accounted for.
+
+
+
   
 
 
