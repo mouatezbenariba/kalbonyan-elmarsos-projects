@@ -13,13 +13,13 @@
 
 ## 📑 Contents of the course
 - Introduction
-- Collections
-- Iteration
-- Using External Code
-- Working with Strings
-- Planning a Program
-- Input and Output
-- Debugging
+1. Collections
+2. Iteration
+3. Using External Code
+4. Working with Strings
+5. Planning a Program
+6. Input and Output
+7. Debugging
 - Conclusion
 
 ## 📝 Course Notes
