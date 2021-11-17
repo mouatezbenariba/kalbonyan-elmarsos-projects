@@ -1,11 +1,16 @@
 def plant_recommendation(care):
-    if care = 'low':
+    # equal sign is "==" not "="
+    if care == 'low':
         print('aloe')
     elif care == 'medium':
         print('pothos')
-    elif care == 'medium':
+    # logic error it's medium instead of high
+    elif care == 'high':
         print('orchid')
 
-plant_rec('low')
+
+# correct the function name
+# the following lines are tests
+plant_recommendation('low')
 plant_recommendation('medium')
 plant_recommendation('high')
