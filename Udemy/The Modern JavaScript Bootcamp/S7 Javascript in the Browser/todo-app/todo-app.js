@@ -28,3 +28,6 @@ toDo.forEach(function(item) {
   todoItem.textContent = item.text;
   document.body.append(todoItem);
 })
+
+// add button listner
+document.querySelector("button").addEventListener("click", ()=>"A new todo has been added!");
