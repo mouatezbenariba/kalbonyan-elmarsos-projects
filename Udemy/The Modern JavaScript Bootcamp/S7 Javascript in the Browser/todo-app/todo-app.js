@@ -31,3 +31,8 @@ toDo.forEach(function(item) {
 
 // add button listner
 document.querySelector("button").addEventListener("click", ()=>"A new todo has been added!");
+
+// listen for todo text change
+document.getElementById("add-todo-input").addEventListener("input", function(e) {
+  console.log(e.target.value);
+})
