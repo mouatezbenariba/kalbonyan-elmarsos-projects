@@ -19,7 +19,7 @@
 <span id="Fundamentals"> </span>
 # Learn Programing Fundamentals ,HTMl and CSS
 
-![92%](https://progress-bar.dev/92/?title=Done)
+![100%](https://progress-bar.dev/100/?title=Done)
 <br />
 - ## Programming Foundations series and HTML and CSS from Linkedin Learning
 
@@ -34,7 +34,7 @@
     - [x]  ` done` ` 53m 51s` - 09 - [Programming Foundations: Software Testing/QA](Linkedin-Learning/Programming-Foundations-Software-TestingQA/)
     - [x]  ` done` ` 2h 55m 49s` - 10 - [Git Essential Training: The Basics](Linkedin-Learning/Git-Essential-Training-The-Basics/)
     - [x]  ` done` ` 2h 45m 37s` - 11 -[HTML Essential Training](Linkedin-Learning/Html-Essential-Training/)
-    - [ ]  ` in progress` ` 4h 29m 7s` - 12- [CSS Essential Training](Linkedin-Learning/CSS-Essential-Training/)
+    - [x]  ` done` ` 4h 29m 7s` - 12- [CSS Essential Training](Linkedin-Learning/CSS-Essential-Training/)
     <br />
 
 <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-24h27m-blue">
@@ -45,7 +45,7 @@
 
 <span id="MERN"></span>
 # MERN Stack
-![0%](https://progress-bar.dev/0/?title=Done)
+![15%](https://progress-bar.dev/15/?title=Done)
 <br />
 - [ ]  `in progress` `29h 30m` - 13 - [The Modern JavaScript Bootcamp](Udemy/The%20Modern%20JavaScript%20Bootcamp/) 
 - [ ]  `in progress` `39h` - 14 - [The Complete React Developer Course](Udemy/The%20Complete%20React%20Developer%20Course)
@@ -73,4 +73,4 @@
 
 # Learn How to Make serverless web applications
 ![0%](https://progress-bar.dev/0/?title=Done)
-- [ ] ![#E27152] `in progress` - 18 - [Serverless Stack (SST)](serverless-stack-project/)
+- [ ]  `in progress` - 18 - [Serverless Stack (SST)](serverless-stack-project/)
