@@ -1,0 +1,1 @@
+document.querySelector("#add-todo").addEventListener("click", ()=>console.log("add todo..."));
