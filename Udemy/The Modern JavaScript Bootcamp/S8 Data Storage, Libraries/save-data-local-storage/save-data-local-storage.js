@@ -31,18 +31,13 @@ filterTodos.forEach(function(item) {
 })
 
 }
-console.log(storedInfo)
-if(storedInfo !== null) {
-  console.log("hello1")
-  renderTodos(toDo, filters);
-}
+
+renderTodos(toDo, filters);
+
 
 document.querySelector("#search-todos").addEventListener("input", function(e) {
-  filters.searchText =  e.target.value;
-  console.log("hello2")
-  if(storedInfo !== null) {
-    renderTodos(toDo, filters); 
-  }
+  filters.searchText =  e.target.value; 
+  renderTodos(toDo, filters); 
 })
 
 // setup a sunmit hundler and cancel default action
