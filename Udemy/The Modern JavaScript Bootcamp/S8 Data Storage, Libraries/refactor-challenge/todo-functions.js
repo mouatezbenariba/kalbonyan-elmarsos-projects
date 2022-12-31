@@ -26,7 +26,7 @@ const renderTodos = function (todos, filter) {
   generateSummaryDOM(incompletedTodos);
 
   filterTodos.forEach(function(item) {
-    generateTodoDOM(item);
+    document.getElementById("todo-list").append(generateTodoDOM(item));
   })
 }
 
@@ -34,7 +34,7 @@ const renderTodos = function (todos, filter) {
 let generateTodoDOM = function(item) {
   let todoItem = document.createElement("p");
   todoItem.textContent = item.text;
-  document.getElementById("todo-list").append(todoItem);
+  return todoItem;
 }
 
 // Get the DOM elements for list summary
