@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Notes App</h1>
+    <h2>Take notes and never forget</h2>
+    <input id="search-text" type="text" placeholder="Filter notes" />
+    <select id="filter-by" title="filter-by">
+      <option value="byEdited">Sort by last edited</option>
+      <option value="byCreated">Sort by recently created</option>
+      <option value="alphabetical">Sort alphabetically</option>
+    </select>
+    <div id="notes"></div>
+    <button id="create-note">Create Note</button>
+    <script src="https://cdn.jsdelivr.net/npm/node-uuid@1.4.8/uuid.min.js"></script>
+    <script src="notes-functions.js"></script>
+    <script src="notes-app.js"></script>
+  </body>
+</html>
