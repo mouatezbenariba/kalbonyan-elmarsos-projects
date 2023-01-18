@@ -24,7 +24,6 @@ const renderTodos = function (todos, filter) {
   });
 
   generateSummaryDOM(incompletedTodos);
-
   filterTodos.forEach(function (item) {
     document.getElementById('todo-list').append(generateTodoDOM(item));
   });
