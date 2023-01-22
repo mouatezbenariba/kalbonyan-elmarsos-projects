@@ -63,6 +63,16 @@ const sortNotes = function (notes, sortBy) {
         return 0;
       }
     });
+  } else if (sortBy === 'byCreated') {
+    return notes.sort(function (a, b) {
+      if (a.createAt > b.createAt) {
+        return -1;
+      } else if (a.createAt < b.createAt) {
+        return 1;
+      } else if (a.createAt === b.createAt) {
+        return 0;
+      }
+    });
   } else {
     return notes;
   }
