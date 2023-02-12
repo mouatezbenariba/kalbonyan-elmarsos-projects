@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Todos</h1>
+    <input id="search-todos" placeholder="search todos" />
+    <input type="button" value="Hide Completed Todos" id="hide-completed" />
+    <div id="todo-list"></div>
+    <!-- Create a form -->
+    <form id="todo-form">
+      <input type="text" name="addTodo" placeholder="add a todo.." />
+    </form>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/mouatezbenariba/public-code-snippets/resources/uuid/uuidv4.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/node-uuid@1.4.8/uuid.min.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo-app.js"></script>
+  </body>
+</html>
