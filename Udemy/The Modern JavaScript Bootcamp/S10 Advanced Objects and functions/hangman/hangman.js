@@ -1,10 +1,10 @@
-const Hangman = function (word, attempts) {
+const Hangman = function (word, remainingGuesses) {
   this.word = word;
-  this.attempts = attempts;
+  this.remainingGuesses = remainingGuesses;
 };
 
-const game1 = new Hangman('cat', 2);
-console.log(game1);
+const exampleOne = new Hangman('algeria', 3);
+const exampleTwo = new Hangman('constantine', 5);
 
-const game2 = new Hangman('Constantine', 3);
-console.log(game2);
+console.log(exampleOne);
+console.log(exampleTwo);
