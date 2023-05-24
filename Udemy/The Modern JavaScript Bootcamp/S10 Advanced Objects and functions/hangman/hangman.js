@@ -1,47 +1,45 @@
+// Create a method for making a guess
+// 1. Should accept a character for guessing
+// 2. Should add unique guesses to list of guesses
+// 3. Should decrement the guesses left if a unique guess isn't a match
+
 const Hangman = function (word, remainingGuesses) {
   this.word = word.toLowerCase().split('');
   this.remainingGuesses = remainingGuesses;
-  this.guessed = [];
+  this.guessedLetters = [];
 };
 
 Hangman.prototype.getPuzzle = function () {
   let puzzle = '';
 
   this.word.forEach((letter) => {
-    if (this.guessed.includes(letter)) {
+    if (this.guessedLetters.includes(letter) || letter === ' ') {
       puzzle += letter;
     } else {
       puzzle += '*';
     }
   });
 
-  return `${puzzle}, it remains ${this.remainingGuesses} guesses.`;
+  return `${puzzle}, remained guesses are : ${this.remainingGuesses}`;
 };
 
-Hangman.prototype.guessPuzzle = function (guessedLetter) {
-  // accept a character for guessing
-  let list = guessedLetter.split(',');
+Hangman.prototype.makeGuess = function (guess) {
+  guess = guess.toLowerCase();
+  const isUnique = !this.guessedLetters.includes(guess);
+  const isBadGuess = !this.word.includes(guess);
 
-  // add unique guesses to the list of guesses
-  list.forEach((item) => {
-    if (!this.guessed.includes(item)) {
-      this.guessed.push(item);
-    }
-  });
+  if (isUnique) {
+    this.guessedLetters.push(guess);
+  }
 
-  // decrement the guesses left if a unique guess isn't a match
-  this.remainingGuesses -= this.guessed.length;
-
-  return this.guessed;
+  if (isUnique && isBadGuess) {
+    this.remainingGuesses--;
+  }
 };
 
 const game1 = new Hangman('Cat', 5);
-console.log(game1.guessPuzzle('c,d,c'));
-console.log(game1.getPuzzle());
 
-// console.log(game1);
-// console.log(game1.getPuzzle());
-
-// const game2 = new Hangman('New Jersey', 4);
-// console.log(game2);
-// console.log(game2.getPuzzle());
+window.addEventListener('keypress', function (e) {
+  game1.makeGuess(e.key);
+  console.log(game1.getPuzzle());
+});
