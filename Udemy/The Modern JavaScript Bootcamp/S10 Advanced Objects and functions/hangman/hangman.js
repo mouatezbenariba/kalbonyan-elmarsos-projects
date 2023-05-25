@@ -48,3 +48,13 @@ Hangman.prototype.recalculateGameStatus = function () {
 
   return this.status;
 };
+
+Hangman.prototype.statusMessage = function () {
+  if (game1.status == 'playing') {
+    return `${game1.getPuzzle()}. Guesses left: ${game1.remainingGuesses}`;
+  } else if (game1.status == 'failed') {
+    return `${game1.getPuzzle()}. Nice try! The word was: "${game1.word.join('')}"`;
+  } else if (game1.status == 'finished') {
+    return `${game1.getPuzzle()}. Great work! You guessed the word.`;
+  }
+};

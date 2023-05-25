@@ -1,11 +1,12 @@
 const game1 = new Hangman('Cat', 5);
 
 window.addEventListener('keypress', function (e) {
-  game1.makeGuess(e.key);
-  const solution = document.createElement('p');
-  const solutionContent = document.createTextNode(
-    `${game1.getPuzzle()}, the remaining guesses are: ${game1.remainingGuesses}`
-  );
-  solution.appendChild(solutionContent);
-  document.body.append(solution);
+  if (game1.status === 'playing') {
+    game1.makeGuess(e.key);
+
+    const solution = document.createElement('p');
+    solution.innerText = game1.statusMessage();
+
+    document.body.append(solution);
+  }
 });
