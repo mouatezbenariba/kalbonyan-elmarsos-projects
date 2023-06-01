@@ -31,9 +31,10 @@ request.addEventListener('readystatechange', (e) => {
     //     console.log(country.name.official);
     //   }
     // });
+    // Iterate over all the array
 
     const country = data.find((country) => country.cca2 === countryCode);
-
     console.log(country.name.official);
+    // return the first element that satisfies a given condition
   }
 });
