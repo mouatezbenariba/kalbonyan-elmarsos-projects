@@ -15,10 +15,10 @@ window.addEventListener('keypress', function (e) {
   guessesEl.textContent = game1.statusMessage;
 });
 
-getCountryCode('DZ', (error, callback) => {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log(callback);
-  }
-});
+getCountryCode('DZ')
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
