@@ -17,7 +17,7 @@ const getLocation = () => {
     if (response.status === 200) {
       return response.json();
     } else {
-      throw new Error('You made an Error');
+      throw new Error('Unable to fetch location');
     }
   });
 };
