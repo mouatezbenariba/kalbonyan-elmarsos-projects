@@ -1,17 +1,23 @@
-const getCountryCode = (countryCode) =>
-  new Promise((resolve, reject) => {
-    const request = new XMLHttpRequest();
-
-    request.addEventListener('readystatechange', (e) => {
-      if (e.target.readyState === 4 && e.target.status === 200) {
-        const data = JSON.parse(e.target.responseText);
-        const country = data.find((country) => country.cca2 === countryCode);
-        resolve(`The country name: ${country.name.official}`);
-      } else if (e.target.readyState === 4) {
-        reject('An error has taken place');
+const getCountryCode = (countryCode) => {
+  return fetch('https://restcountries.com/v3.1/all')
+    .then((response) => {
+      if (response.status === 200) {
+        return response.json();
+      } else {
+        throw new Error('You made and error');
       }
+    })
+    .then((data) => {
+      return data.find((country) => country.cca2 === countryCode);
     });
+};
 
-    request.open('GET', 'https://restcountries.com/v3.1/all');
-    request.send();
+const getLocation = () => {
+  return fetch('https://ipinfo.io/json?token=a85cd3ad025832').then((response) => {
+    if (response.status === 200) {
+      return response.json();
+    } else {
+      throw new Error('You made an Error');
+    }
   });
+};
