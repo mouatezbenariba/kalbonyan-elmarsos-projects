@@ -29,7 +29,7 @@ window.addEventListener('keypress', function (e) {
 //   })
 //   .catch((error) => console.log(error));
 
-getCountryCode('DZ')
+getCountryCode('MX')
   .then((country) => {
     console.log(country.name.official);
   })
@@ -37,12 +37,18 @@ getCountryCode('DZ')
     console.log(error);
   });
 
-getLocation()
-  .then((location) => {
-    getCountryCode(location.country.toUpperCase()).then((country) => {
-      console.log(
-        `You are currently in : ${location.city}, ${location.region}, ${country.name.official}`
-      );
-    });
+// getLocation()
+//   .then((location) => {
+//     getCountryCode(location.country.toUpperCase()).then((country) => {
+//       console.log(
+//         `You are currently in : ${location.city}, ${location.region}, ${country.name.official}`
+//       );
+//     });
+//   })
+//   .catch((error) => console.log(error));
+
+getCurrentCountry()
+  .then((country) => {
+    console.log(country);
   })
   .catch((error) => console.log(error));
