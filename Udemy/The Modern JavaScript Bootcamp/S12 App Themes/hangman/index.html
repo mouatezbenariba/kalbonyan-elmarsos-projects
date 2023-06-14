@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Hangman App</title>
   </head>
   <body>
-    <p id="puzzle">*** *****</p>
-    <p id="guesses">Guesses left: 2</p>
-    <input type="reset" value="reset" id="reset" />
+    <div>
+      <div id="puzzle" class="puzzle">*** *****</div>
+      <p id="guesses">Guesses left: 2</p>
+      <input type="reset" value="reset" id="reset" class="button" />
+    </div>
     <script src="scripts/hangman.js"></script>
     <script src="scripts/requests.js"></script>
     <script src="scripts/app.js"></script>

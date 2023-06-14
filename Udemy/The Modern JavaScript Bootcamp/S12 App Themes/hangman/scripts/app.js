@@ -6,8 +6,14 @@ const guessesEl = document.querySelector('#guesses');
 let game1;
 
 const render = () => {
-  puzzleEl.textContent = game1.puzzle;
+  puzzleEl.innerHTML = '';
   guessesEl.textContent = game1.statusMessage;
+
+  game1.puzzle.split('').forEach((letter) => {
+    const letterEl = document.createElement('span');
+    letterEl.textContent = letter;
+    puzzleEl.appendChild(letterEl);
+  });
 };
 
 const startGame = async () => {
@@ -23,8 +29,7 @@ startGame();
 window.addEventListener('keypress', function (e) {
   const guess = String.fromCharCode(e.charCode);
   game1.makeGuess(guess);
-  puzzleEl.textContent = game1.puzzle;
-  guessesEl.textContent = game1.statusMessage;
+  render();
 });
 
 getCountryCode('MX')
