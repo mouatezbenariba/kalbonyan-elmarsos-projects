@@ -3,10 +3,22 @@
 // Response - What was actually done
 const puzzleEl = document.querySelector('#puzzle');
 const guessesEl = document.querySelector('#guesses');
-const game1 = new Hangman('Car Parts', 2);
+let game1;
 
-puzzleEl.textContent = game1.puzzle;
-guessesEl.textContent = game1.statusMessage;
+const render = () => {
+  puzzleEl.textContent = game1.puzzle;
+  guessesEl.textContent = game1.statusMessage;
+};
+
+const startGame = async () => {
+  const puzzle = await getPuzzle('2');
+  game1 = new Hangman(puzzle, 5);
+  render();
+};
+
+document.querySelector('#reset').addEventListener('click', startGame);
+
+startGame();
 
 window.addEventListener('keypress', function (e) {
   const guess = String.fromCharCode(e.charCode);
